@@ -3,6 +3,8 @@ OpenGL Targeting Small Vector Library in C for sse4.2
 
 This is my second attempt at this: it's in very early development stages. The goal is to have a small vector library capable of all the bells and whistles of GLSL + constructors for matrices. The first attempt didn't have any generics, and had a poor ABI due to my usage of unions with SSE intrinsics.
 
+To use, simply `#include "vector-math.h"`. The other two files are for unit testing.
+
 Excluding swizzling, the implementation of vec4's are complete and unit tested. Vec3's are also written, but not completely unit tested.
 
 Example usage is
